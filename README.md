@@ -31,10 +31,17 @@ python -m pytest -q
 python -m model_supply_chain_radar
 ```
 
+## Silicon Valley Interview Hook
+
+The `deployment_decision()` API converts release metadata into an approval-style decision
+with blockers, warnings and missing serving integrations. It is designed for the actual
+platform question behind open-weight hype: which model can move from benchmark slide to
+prototype without license, safety or infrastructure surprises?
+
 ## Status
 
-MVP: metadata model, readiness scoring, ranking and tests. Next steps: add parsers for
-release cards and a dated research-note exporter.
+MVP: metadata model, readiness scoring, deployment policy decisions, ranking and tests.
+Next steps: add parsers for release cards and a dated research-note exporter.
 
 ## License
 
